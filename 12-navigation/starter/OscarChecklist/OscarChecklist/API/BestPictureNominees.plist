@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Best Picture</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>American Sniper</string>
+			<key>synopsis</key>
+			<string>Already skilled with a rifle before he joins the Navy SEALS and departs for Iraq, Chris Kyle becomes one of the most skilled snipers in U.S. military history. As he rotates through four tours of duty, however, Kyle must deal with the high levels of stress and the toll on his personal life that are an unavoidable part of his harrowing work.</string>
+			<key>director</key>
+			<string>Clint Eastwood</string>
+			<key>actors</key>
+			<array>
+				<string>Bradley Cooper</string>
+				<string>Sienna Miller</string>
+			</array>
+			<key>genre</key>
+			<string>Action | Biography | Drama</string>
+			<key>runtime</key>
+			<real>133</real>
+			<key>pictureRating</key>
+			<string>R</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/american_sniper_xlg.jpg</string>
+			<key>userRating</key>
+			<real>7.3</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Birdman</string>
+			<key>synopsis</key>
+			<string>Best known to the public as Birdman, the superhero he once played in a series of films, Riggan Thomson hopes to reestablish himself as a serious actor by mounting his own dramatic production on Broadway. With his self-doubt hindering the project, Thomson also finds himself threatened by the presence of a high-profile, egotistical movie star in his cast.</string>
+			<key>director</key>
+			<string>Alejandro González Iñárritu</string>
+			<key>actors</key>
+			<array>
+				<string>Michael Keaton</string>
+				<string>Zach Galifianakis</string>
+				<string>Edward Norton</string>
+				<string>Andrea Riseborough</string>
+				<string>Amy Ryan</string>
+				<string>Emma Stone</string>
+				<string>Naomi Watts</string>
+			</array>
+			<key>genre</key>
+			<string>Comedy | Drama</string>
+			<key>runtime</key>
+			<real>119</real>
+			<key>pictureRating</key>
+			<string>R</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/birdman_ver3_xlg.jpg</string>
+			<key>userRating</key>
+			<real>7.8</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Boyhood</string>
+			<key>synopsis</key>
+			<string>Over the course of 12 years, a young boy named Mason experiences the joys and difficulties of childhood. The child of divorced parents, both of whom are facing their own set of challenges, Mason, along with his sister Samantha, learns to navigate through a world in which the strengths and frailties of the adults around him have a profound impact on his own life.</string>
+			<key>director</key>
+			<string>Richard Linklater</string>
+			<key>actors</key>
+			<array>
+				<string>Patricia Arquette</string>
+				<string>Ellar Coltrane</string>
+				<string>Lorelei Linklater</string>
+				<string>Ethan Hawke</string>
+			</array>
+			<key>genre</key>
+			<string>Drama</string>
+			<key>runtime</key>
+			<real>165</real>
+			<key>pictureRating</key>
+			<string>R</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/boyhood_xlg.jpg</string>
+			<key>userRating</key>
+			<real>8</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The Grand Budapest Hotel</string>
+			<key>synopsis</key>
+			<string>As the owner of a once-luxurious Alpine hotel relates its history to a visiting writer, he describes his youth as a lobby boy at the Grand Budapest, where he was the protégé of the hotel&apos;s concierge, Monsieur Gustave. Gustave runs the five-star establishment with panache and an iron fist, while also offering his services as a lover to the older, wealthy women guests.</string>
+			<key>director</key>
+			<string>Wes Anderson</string>
+			<key>actors</key>
+			<array>
+				<string>Ralph Fiennes</string>
+				<string>F. Murray Abraham</string>
+				<string>Mathieu Amalric</string>
+				<string>Adrien Brody</string>
+				<string>Willem Dafoe</string>
+				<string>Jeff Goldblum</string>
+				<string>Harvey Keitel</string>
+				<string>Jude Law</string>
+				<string>Bill Murray</string>
+			</array>
+			<key>genre</key>
+			<string>Adventure | Comedy | Drama  </string>
+			<key>runtime</key>
+			<real>99</real>
+			<key>pictureRating</key>
+			<string>R</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/grand_budapest_hotel_ver2.jpg</string>
+			<key>userRating</key>
+			<real>8.1</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The Imitation Game</string>
+			<key>synopsis</key>
+			<string>As World War II engulfs Europe, a group of English mathematicians are assembled at Bletchley Park to work in secret on cracking the code of a captured German Enigma encryption machine. With England&apos;s fate hanging in the balance, the group&apos;s leader, the brilliant, eccentric Alan Turing, must hide his homosexuality or risk arrest and persecution by the country he is fighting to save.</string>
+			<key>director</key>
+			<string>Morten Tyldum</string>
+			<key>actors</key>
+			<array>
+				<string>Benedict Cumberbatch</string>
+				<string>Keira Knightley</string>
+				<string>Matthew Goode</string>
+				<string>Rory Kinnear</string>
+				<string>Charles Dance</string>
+				<string>Mark Strong</string>
+			</array>
+			<key>genre</key>
+			<string>Biography | Drama | Thriller</string>
+			<key>runtime</key>
+			<integer>114</integer>
+			<key>pictureRating</key>
+			<string>PG-13</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/imitation_game_ver2.jpg</string>
+			<key>userRating</key>
+			<real>8.1</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Selma</string>
+			<key>synopsis</key>
+			<string>The life of civil rights leader Martin Luther King, Jr. is examined through the dramatic events surrounding the historic 1965 freedom marches from Selma to Montgomery. Determined to fight the injustice and discrimination that African Americans continue to face in southern states despite the Civil Rights Act of 1964, King chooses Selma as the starting point for the peaceful protest marches that will focus the world&apos;s attention on the city and its response.</string>
+			<key>director</key>
+			<string>Ava DuVernay</string>
+			<key>actors</key>
+			<array>
+				<string>David Oyelowo</string>
+				<string>Tom Wilkinson</string>
+				<string>Carmen Ejogo</string>
+				<string>Tim Roth</string>
+				<string>Oprah Winfrey</string>
+			</array>
+			<key>genre</key>
+			<string>Biography | Drama | History</string>
+			<key>runtime</key>
+			<real>128</real>
+			<key>pictureRating</key>
+			<string>PG-13</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/intl/uk/2014/posters/selma.jpg</string>
+			<key>userRating</key>
+			<real>7.5</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The Theory of Everything</string>
+			<key>synopsis</key>
+			<string>Stephen Hawking is a brilliant Cambridge graduate student when he learns that he has a progressive motor neuron disease and may die within two years. For Jane Wilde, Stephen&apos;s fellow student and future wife, the prognosis represents not a certainty but a challenge that her faith and Stephen&apos;s passionate determination can overcome.</string>
+			<key>director</key>
+			<string>James Marsh</string>
+			<key>actors</key>
+			<array>
+				<string>Eddie Redmayne</string>
+				<string>Felicity Jones</string>
+				<string>Charlie Cox</string>
+				<string>Emily Watson</string>
+				<string>Simon McBurney</string>
+				<string>David Thewlis</string>
+			</array>
+			<key>genre</key>
+			<string>Biography | Drama | Romance</string>
+			<key>runtime</key>
+			<real>123</real>
+			<key>pictureRating</key>
+			<string>PG-13</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/intl/uk/2014/posters/theory_of_everything_ver2.jpg</string>
+			<key>userRating</key>
+			<real>7.7</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Whiplash</string>
+			<key>synopsis</key>
+			<string>Andrew is a 19-year-old music conservatory student who is determined to become a great jazz drummer. His talent and fierce passion draw the attention of the school&apos;s most intimidating teacher, Terence Fletcher, who believes that students excel not through praise and encouragement, but through relentless humiliation and fear.</string>
+			<key>director</key>
+			<string>Damien Chazelle</string>
+			<key>actors</key>
+			<array>
+				<string>Miles Teller</string>
+				<string>J. K. Simmons</string>
+				<string>Paul Reiser</string>
+			</array>
+			<key>genre</key>
+			<string>Drama | Music</string>
+			<key>runtime</key>
+			<real>107</real>
+			<key>pictureRating</key>
+			<string>R</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/whiplash.jpg</string>
+			<key>userRating</key>
+			<real>8.5</real>
+		</dict>
+	</array>
+	<key>Animated Feature</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Big Hero 6</string>
+			<key>synopsis</key>
+			<string>Fourteen-year-old science prodigy Hiro spends his time developing fighting robots for underground competitions until his older brother introduces him to an eccentric group of young inventors. When the talented misfits band together to fight a dangerous villain, they gain an unlikely ally: a gentle healthcare bot named Baymax.</string>
+			<key>director</key>
+			<string>Don Hall, Chris Williams</string>
+			<key>actors</key>
+			<array>
+				<string>Scott Adsit</string>
+				<string>Ryan Potter</string>
+				<string>Daniel Henney</string>
+				<string>T. J. Miller</string>
+				<string>Jamie Chung</string>
+				<string>Damon Wayans, Jr.</string>
+				<string>Génesis Rodríguez</string>
+			</array>
+			<key>genre</key>
+			<string>Animation | Action | Adventure </string>
+			<key>runtime</key>
+			<real>102</real>
+			<key>pictureRating</key>
+			<string>PG</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/big_hero_six_ver2.jpg</string>
+			<key>userRating</key>
+			<real>7.9</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The Boxtrolls</string>
+			<key>synopsis</key>
+			<string>In the city of Cheesebridge, a community of shy trolls lives in hiding, emerging only at night to scavenge anything the humans have left outdoors. When they take a human baby and raise him as one of their own, his disappearance gives ammunition to the sinister Archibald Snatcher, who plans to advance his position in the town by eradicating the trolls.</string>
+			<key>director</key>
+			<string>Graham Annable, Anthony Stacchi</string>
+			<key>actors</key>
+			<array>
+				<string>Isaac Hempstead-Wright</string>
+				<string>Elle Fanning</string>
+				<string>Ben Kingsley</string>
+				<string>Toni Collette</string>
+				<string>Jared Harris</string>
+				<string>Simon Pegg</string>
+				<string>Nick Frost</string>
+			</array>
+			<key>genre</key>
+			<string>Animation | Adventure | Comedy</string>
+			<key>runtime</key>
+			<real>96</real>
+			<key>pictureRating</key>
+			<string>PG</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/boxtrolls.jpg</string>
+			<key>userRating</key>
+			<real>6.8</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>How to Train Your Dragon 2</string>
+			<key>synopsis</key>
+			<string>Viking dragon tamer Hiccup is now a young man, but he retains his longing for new experiences and his bond with his beloved dragon, Toothless. After Hiccup and his girlfriend Astrid uncover a hidden dragon paradise and the secret behind a family tragedy, all the Vikings must band together to protect the dragons against ruthless hunter Drago.</string>
+			<key>director</key>
+			<string>Dean DeBlois</string>
+			<key>actors</key>
+			<array>
+				<string>Jay Baruchel</string>
+				<string>Cate Blanchett</string>
+				<string>Gerard Butler</string>
+				<string>Craig Ferguson</string>
+				<string>America Ferrera</string>
+				<string>Jonah Hill</string>
+				<string>Christopher Mintz-Plasse</string>
+			</array>
+			<key>genre</key>
+			<string>Animation | Action | Adventure</string>
+			<key>runtime</key>
+			<real>102</real>
+			<key>pictureRating</key>
+			<string>PG</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/2014/posters/how_to_train_your_dragon_two_ver7.jpg</string>
+			<key>userRating</key>
+			<real>7.9</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Song of the Sea</string>
+			<key>synopsis</key>
+			<string>Saoirse and Ben live with their father, a lighthouse keeper, on a small island. Ben, who blames his sister for their mother&apos;s death, is unaware that Saoirse, like their mother, is a mythical sea creature known as a Selkie and is now the last of her kind.</string>
+			<key>director</key>
+			<string>Tomm Moore</string>
+			<key>actors</key>
+			<array>
+				<string>David Rawle</string>
+				<string>Brendan Gleeson</string>
+				<string>Fionnula Flanagan</string>
+				<string>Lisa Hannigan</string>
+				<string>Lucy O&apos;Connell</string>
+				<string>Jon Kenny</string>
+				<string>Pat Shortt</string>
+			</array>
+			<key>genre</key>
+			<string>Animation | Family | Fantasy</string>
+			<key>runtime</key>
+			<real>93</real>
+			<key>pictureRating</key>
+			<string>PG</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/intl/misc/2014/posters/song_of_the_sea.jpg</string>
+			<key>userRating</key>
+			<real>8.199999999999999</real>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The Tale of the Princess Kaguya</string>
+			<key>synopsis</key>
+			<string>When a bamboo cutter named Okina finds a miniature infant inside a cane stalk, he brings her home to his wife, Ona, and she grows immediately to the size of a human baby. Called Princess by her adoptive parents, the magical child leads an idyllic life until her father finds riches hidden in the forest that he believes are her celestial dowry.</string>
+			<key>director</key>
+			<string>Isao Takahata</string>
+			<key>actors</key>
+			<array>
+				<string>Aki Asakura</string>
+				<string>Kengo Kora</string>
+				<string>Takeo Chii</string>
+				<string>Nobuko Miyamoto</string>
+			</array>
+			<key>genre</key>
+			<string>Animation | Drama | Fantasy</string>
+			<key>runtime</key>
+			<real>137</real>
+			<key>pictureRating</key>
+			<string>PG</string>
+			<key>imageURL</key>
+			<string>http://www.impawards.com/intl/japan/2013/posters/kaguyahime_no_monogatari.jpg</string>
+			<key>userRating</key>
+			<real>8.1</real>
+		</dict>
+	</array>
+</dict>
+</plist>
