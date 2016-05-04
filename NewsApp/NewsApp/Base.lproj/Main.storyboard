@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="7MQ-m5-omc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--News-->
+        <scene sceneID="Azx-Zf-qa5">
+            <objects>
+                <tableViewController id="bM6-gS-fE0" customClass="GeneralNewsTableViewController" customModule="NewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" sectionHeaderHeight="40" sectionFooterHeight="40" id="xNw-Bg-LzS">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="220" id="dEF-wU-9r1" customClass="NewsCell" customModule="NewsApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="54" width="1880" height="220"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dEF-wU-9r1" id="05l-ra-4UV">
+                                    <rect key="frame" x="0.0" y="0.0" width="1904" height="220"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1V-h1-r4v">
+                                            <rect key="frame" x="8" y="8" width="163" height="47"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dateLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnp-J0-4q3">
+                                            <rect key="frame" x="8" y="63" width="133" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="descriptionTextLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1r-ej-DHH">
+                                            <rect key="frame" x="8" y="106" width="1904" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="leadingMargin" secondItem="b1V-h1-r4v" secondAttribute="leading" id="LgR-JP-9fX"/>
+                                        <constraint firstItem="G1r-ej-DHH" firstAttribute="top" secondItem="cnp-J0-4q3" secondAttribute="bottom" constant="8" id="Pox-eL-LOV"/>
+                                        <constraint firstAttribute="topMargin" secondItem="b1V-h1-r4v" secondAttribute="top" id="ZKh-qH-qcu"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="G1r-ej-DHH" secondAttribute="trailing" id="cbE-fD-7Rf"/>
+                                        <constraint firstItem="cnp-J0-4q3" firstAttribute="leading" secondItem="b1V-h1-r4v" secondAttribute="leading" id="rk4-sz-uV0"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="G1r-ej-DHH" secondAttribute="leading" id="shH-dg-i90"/>
+                                        <constraint firstItem="cnp-J0-4q3" firstAttribute="top" secondItem="b1V-h1-r4v" secondAttribute="bottom" constant="8" id="ywy-fV-vqI"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="dateLabel" destination="cnp-J0-4q3" id="1h7-b8-LmP"/>
+                                    <outlet property="descriptionTextLabel" destination="G1r-ej-DHH" id="bSn-mx-qHH"/>
+                                    <outlet property="titleLabel" destination="b1V-h1-r4v" id="26l-p4-HuD"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bM6-gS-fE0" id="78H-ea-oWy"/>
+                            <outlet property="delegate" destination="bM6-gS-fE0" id="M4h-8v-zir"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="News" id="j5C-lc-0Bm"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0K-Vh-rFa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3587" y="-388"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="j57-gN-wKm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7MQ-m5-omc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fUn-s2-M12">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bM6-gS-fE0" kind="relationship" relationship="viewControllers" id="L2U-sj-UgV"/>
+                        <segue destination="NRk-ZR-DeM" kind="relationship" relationship="viewControllers" id="W9M-4m-AG0"/>
+                        <segue destination="ZDX-0S-53R" kind="relationship" relationship="viewControllers" id="68n-E3-uuM"/>
+                        <segue destination="fMB-We-irw" kind="relationship" relationship="viewControllers" id="T7Q-Ae-GCa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Y2-tA-TX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1531" y="751"/>
+        </scene>
+        <!--Mars-->
+        <scene sceneID="D7i-jG-jry">
+            <objects>
+                <tableViewController id="NRk-ZR-DeM" customClass="MartianNewsTableViewController" customModule="NewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" sectionHeaderHeight="40" sectionFooterHeight="40" id="obe-jA-jHF">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="220" id="bfc-zH-xWj" customClass="NewsCell" customModule="NewsApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="54" width="1880" height="220"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bfc-zH-xWj" id="TNf-NR-w6F">
+                                    <rect key="frame" x="0.0" y="0.0" width="1904" height="220"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFP-zD-ziR">
+                                            <rect key="frame" x="8" y="8" width="163" height="47"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dateLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArW-XI-cn6">
+                                            <rect key="frame" x="8" y="63" width="133" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="descriptionTextLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZb-P4-Zau">
+                                            <rect key="frame" x="8" y="106" width="1904" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="topMargin" secondItem="cFP-zD-ziR" secondAttribute="top" id="Aex-oq-j9z"/>
+                                        <constraint firstItem="ArW-XI-cn6" firstAttribute="top" secondItem="cFP-zD-ziR" secondAttribute="bottom" constant="8" id="OeS-F2-WJr"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="cFP-zD-ziR" secondAttribute="leading" id="VqO-7z-XXa"/>
+                                        <constraint firstItem="jZb-P4-Zau" firstAttribute="top" secondItem="ArW-XI-cn6" secondAttribute="bottom" constant="8" id="bst-Hc-RaC"/>
+                                        <constraint firstItem="ArW-XI-cn6" firstAttribute="leading" secondItem="cFP-zD-ziR" secondAttribute="leading" id="fTm-aT-rI1"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="jZb-P4-Zau" secondAttribute="trailing" id="jVG-cn-FMA"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="jZb-P4-Zau" secondAttribute="leading" id="mHD-jv-0cT"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="dateLabel" destination="ArW-XI-cn6" id="ily-MI-aZA"/>
+                                    <outlet property="descriptionTextLabel" destination="jZb-P4-Zau" id="6FR-mT-vCg"/>
+                                    <outlet property="titleLabel" destination="cFP-zD-ziR" id="93O-IW-RSD"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NRk-ZR-DeM" id="MlQ-gW-pfY"/>
+                            <outlet property="delegate" destination="NRk-ZR-DeM" id="FKJ-K9-TRF"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Mars" id="kgW-o9-SFp"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yx2-Td-saR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3587" y="751"/>
+        </scene>
+        <!--Earth-->
+        <scene sceneID="HYS-wH-MLd">
+            <objects>
+                <tableViewController id="ZDX-0S-53R" customClass="EarthNewsTableViewController" customModule="NewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" sectionHeaderHeight="40" sectionFooterHeight="40" id="AEO-dw-WwE">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="220" id="K7c-5C-lcN" customClass="NewsCell" customModule="NewsApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="54" width="1880" height="220"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K7c-5C-lcN" id="kRg-In-lXu">
+                                    <rect key="frame" x="0.0" y="0.0" width="1904" height="220"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OkH-0I-J6Q">
+                                            <rect key="frame" x="8" y="8" width="163" height="47"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dateLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPD-7h-X3f">
+                                            <rect key="frame" x="8" y="63" width="133" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="descriptionTextLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL2-qP-lJA">
+                                            <rect key="frame" x="8" y="106" width="1904" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="XL2-qP-lJA" firstAttribute="top" secondItem="WPD-7h-X3f" secondAttribute="bottom" constant="8" id="BbM-5R-QJb"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="OkH-0I-J6Q" secondAttribute="leading" id="Ktl-Wf-8pk"/>
+                                        <constraint firstItem="WPD-7h-X3f" firstAttribute="leading" secondItem="OkH-0I-J6Q" secondAttribute="leading" id="WVG-4K-Htk"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="XL2-qP-lJA" secondAttribute="leading" id="aUU-sR-kmt"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="XL2-qP-lJA" secondAttribute="trailing" id="cmk-gt-OEg"/>
+                                        <constraint firstItem="WPD-7h-X3f" firstAttribute="top" secondItem="OkH-0I-J6Q" secondAttribute="bottom" constant="8" id="ebg-E6-vhe"/>
+                                        <constraint firstAttribute="topMargin" secondItem="OkH-0I-J6Q" secondAttribute="top" id="p9A-ZL-R69"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="dateLabel" destination="WPD-7h-X3f" id="Rzm-jT-0qu"/>
+                                    <outlet property="descriptionTextLabel" destination="XL2-qP-lJA" id="06n-RE-6vG"/>
+                                    <outlet property="titleLabel" destination="OkH-0I-J6Q" id="yMW-MG-plD"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZDX-0S-53R" id="NfO-pF-Ofa"/>
+                            <outlet property="delegate" destination="ZDX-0S-53R" id="Jdu-LF-YkL"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Earth" id="JYU-T2-p9T"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4lS-JY-VmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3600" y="1989"/>
+        </scene>
+        <!--Milky Way-->
+        <scene sceneID="QWu-yh-pKf">
+            <objects>
+                <tableViewController id="fMB-We-irw" customClass="MilkyNewsTableViewController" customModule="NewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" sectionHeaderHeight="40" sectionFooterHeight="40" id="2iJ-Zk-So9">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="220" id="vUx-iL-RiB" customClass="NewsCell" customModule="NewsApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="54" width="1880" height="220"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vUx-iL-RiB" id="iQz-dG-REO">
+                                    <rect key="frame" x="0.0" y="0.0" width="1904" height="220"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6w-Ur-MSb">
+                                            <rect key="frame" x="8" y="8" width="163" height="47"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dateLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCT-Cs-oNA">
+                                            <rect key="frame" x="8" y="63" width="133" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="descriptionTextLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbH-Ib-uPg">
+                                            <rect key="frame" x="8" y="106" width="1904" height="35"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="bbH-Ib-uPg" firstAttribute="top" secondItem="HCT-Cs-oNA" secondAttribute="bottom" constant="8" id="9dn-7Y-hV8"/>
+                                        <constraint firstAttribute="topMargin" secondItem="h6w-Ur-MSb" secondAttribute="top" id="LfC-jD-V2F"/>
+                                        <constraint firstItem="HCT-Cs-oNA" firstAttribute="top" secondItem="h6w-Ur-MSb" secondAttribute="bottom" constant="8" id="Lv2-0U-Mko"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="h6w-Ur-MSb" secondAttribute="leading" id="TJM-hf-BTk"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="bbH-Ib-uPg" secondAttribute="trailing" id="gZ4-R1-Zpp"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="bbH-Ib-uPg" secondAttribute="leading" id="hZ2-mC-Fz5"/>
+                                        <constraint firstItem="HCT-Cs-oNA" firstAttribute="leading" secondItem="h6w-Ur-MSb" secondAttribute="leading" id="ozk-bZ-noL"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="dateLabel" destination="HCT-Cs-oNA" id="HAD-3F-BwC"/>
+                                    <outlet property="descriptionTextLabel" destination="bbH-Ib-uPg" id="70u-IU-M1C"/>
+                                    <outlet property="titleLabel" destination="h6w-Ur-MSb" id="2jw-jD-TYg"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fMB-We-irw" id="7Po-dj-YL1"/>
+                            <outlet property="delegate" destination="fMB-We-irw" id="C7Y-st-kET"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Milky Way" id="tM2-Zl-k7G"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5Q-C6-Fwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1531" y="1989"/>
+        </scene>
+    </scenes>
+</document>
